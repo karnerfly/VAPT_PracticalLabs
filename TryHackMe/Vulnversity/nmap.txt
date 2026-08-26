@@ -1,0 +1,64 @@
+Starting Nmap 7.99 ( https://nmap.org ) at 2026-06-04 20:07 +0530
+NSE: Loaded 48 scripts for scanning.
+Initiating Parallel DNS resolution of 1 host. at 20:07
+Completed Parallel DNS resolution of 1 host. at 20:07, 0.50s elapsed
+Initiating SYN Stealth Scan at 20:07
+Scanning 10.48.154.207 [1000 ports]
+Discovered open port 22/tcp on 10.48.154.207
+Discovered open port 21/tcp on 10.48.154.207
+Discovered open port 139/tcp on 10.48.154.207
+Discovered open port 445/tcp on 10.48.154.207
+Discovered open port 3333/tcp on 10.48.154.207
+Discovered open port 3128/tcp on 10.48.154.207
+Completed SYN Stealth Scan at 20:07, 0.73s elapsed (1000 total ports)
+Initiating Service scan at 20:07
+Scanning 6 services on 10.48.154.207
+Completed Service scan at 20:07, 21.36s elapsed (6 services on 1 host)
+Initiating OS detection (try #1) against 10.48.154.207
+Retrying OS detection (try #2) against 10.48.154.207
+Retrying OS detection (try #3) against 10.48.154.207
+Retrying OS detection (try #4) against 10.48.154.207
+Retrying OS detection (try #5) against 10.48.154.207
+NSE: Script scanning 10.48.154.207.
+NSE: Starting runlevel 1 (of 2) scan.
+Initiating NSE at 20:07
+Completed NSE at 20:07, 0.30s elapsed
+NSE: Starting runlevel 2 (of 2) scan.
+Initiating NSE at 20:07
+Completed NSE at 20:07, 0.20s elapsed
+Nmap scan report for 10.48.154.207
+Host is up, received user-set (0.049s latency).
+Scanned at 2026-06-04 20:07:14 IST for 34s
+Not shown: 994 closed tcp ports (reset)
+PORT     STATE SERVICE     REASON         VERSION
+21/tcp   open  ftp         syn-ack ttl 62 vsftpd 3.0.5
+22/tcp   open  ssh         syn-ack ttl 62 OpenSSH 8.2p1 Ubuntu 4ubuntu0.13 (Ubuntu Linux; protocol 2.0)
+139/tcp  open  netbios-ssn syn-ack ttl 62 Samba smbd 4
+445/tcp  open  netbios-ssn syn-ack ttl 62 Samba smbd 4
+3128/tcp open  http-proxy  syn-ack ttl 62 Squid http proxy 4.10
+3333/tcp open  http        syn-ack ttl 62 Apache httpd 2.4.41 ((Ubuntu))
+No exact OS matches for host (If you know what OS is running on it, see https://nmap.org/submit/ ).
+TCP/IP fingerprint:
+OS:SCAN(V=7.99%E=4%D=6/4%OT=21%CT=1%CU=40630%PV=Y%DS=3%DC=I%G=Y%TM=6A218DBC
+OS:%P=x86_64-pc-linux-gnu)SEQ(SP=103%GCD=1%ISR=10A%TI=Z%CI=Z%II=I%TS=A)SEQ(
+OS:SP=105%GCD=1%ISR=109%TI=Z%CI=Z%II=I%TS=A)SEQ(SP=107%GCD=1%ISR=108%TI=Z%C
+OS:I=Z%II=I%TS=A)SEQ(SP=109%GCD=3%ISR=10C%TI=Z%CI=Z%II=I%TS=A)SEQ(SP=F3%GCD
+OS:=1%ISR=104%TI=Z%CI=Z%II=I%TS=A)OPS(O1=M4E8ST11NW7%O2=M4E8ST11NW7%O3=M4E8
+OS:NNT11NW7%O4=M4E8ST11NW7%O5=M4E8ST11NW7%O6=M4E8ST11)WIN(W1=F4B3%W2=F4B3%W
+OS:3=F4B3%W4=F4B3%W5=F4B3%W6=F4B3)ECN(R=Y%DF=Y%T=40%W=F507%O=M4E8NNSNW7%CC=
+OS:Y%Q=)T1(R=Y%DF=Y%T=40%S=O%A=S+%F=AS%RD=0%Q=)T2(R=N)T3(R=N)T4(R=Y%DF=Y%T=
+OS:40%W=0%S=A%A=Z%F=R%O=%RD=0%Q=)T5(R=Y%DF=Y%T=40%W=0%S=Z%A=S+%F=AR%O=%RD=0
+OS:%Q=)T6(R=Y%DF=Y%T=40%W=0%S=A%A=Z%F=R%O=%RD=0%Q=)T7(R=Y%DF=Y%T=40%W=0%S=Z
+OS:%A=S+%F=AR%O=%RD=0%Q=)U1(R=Y%DF=N%T=40%IPL=164%UN=0%RIPL=G%RID=G%RIPCK=G
+OS:%RUCK=G%RUD=G)IE(R=Y%DFI=N%T=40%CD=S)
+
+Uptime guess: 4.511 days (since Sun May 31 07:51:24 2026)
+Network Distance: 3 hops
+TCP Sequence Prediction: Difficulty=263 (Good luck!)
+IP ID Sequence Generation: All zeros
+Service Info: OSs: Unix, Linux; CPE: cpe:/o:linux:linux_kernel
+
+Read data files from: /usr/share/nmap
+OS and Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+Nmap done: 1 IP address (1 host up) scanned in 34.69 seconds
+           Raw packets sent: 1110 (52.890KB) | Rcvd: 1095 (50.306KB)

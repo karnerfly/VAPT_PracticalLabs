@@ -1,0 +1,32 @@
+Task1:
+    hashcat -a 0 -m 0 hash_t1.txt /usr/share/wordlists/rockyou.txt -o hashcat_cracked_t1.txt --outfile-format=2
+
+Task2:
+    hashcat -a 0 -m 100 hash_t2.txt /usr/share/wordlists/rockyou.txt -o hashcat_cracked_t2.txt --outfile-format=2
+
+Task3:
+    hashcat -a 0 -m 100 hash_t2.txt /usr/share/wordlists/rockyou.txt -o hashcat_cracked_t2.txt --outfile-format=2
+
+Task4:
+    hashcat -a 0 -m 3200 -O -w 3 -o hashcat_cracked_t4.txt --outfile-format=2 hash_t4.txt len4wordlist.txt
+
+Task5:
+    <blank>
+
+Task6:
+    hashcat -a 0 -m 1400 -o hashcat_cracked_t6.txt --outfile-format=2 hash_t6.txt /usr/share/wordlists/rockyou.txt
+
+Task7:
+    hashcat -a 0 -m 1000 -o hashcat_cracked_t7.txt --outfile-format=2 hash_t7.txt /usr/share/wordlists/rockyou.txt
+
+Task8:
+    hashcat -a 0 -m 1800 -O -w 3 -o hashcat_cracked_t8.txt --outfile-format=2 hash_t8.txt len6wordlist.txt
+
+Task9:
+    hashcat -a 0 -m 160 hash_t9.txt /usr/share/wordlists/rockyou.txt -o hashcat_cracked_t9.txt --outfile-format=2
+
+To Identify Hash Type:
+    hash-identifier <hash>
+
+To filter wordlist:
+    awk 'length($0) == 4' /usr/share/wordlists/rockyou.txt > len4wordlist.txt

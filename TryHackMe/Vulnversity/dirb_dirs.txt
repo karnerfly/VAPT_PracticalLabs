@@ -1,0 +1,70 @@
+
+-----------------
+DIRB v2.22    
+By The Dark Raver
+-----------------
+
+START_TIME: Thu Jun  4 22:26:43 2026
+URL_BASE: http://10.49.169.132:3333/
+WORDLIST_FILES: /usr/share/wordlists/dirbuster/directory-list-1.0.txt
+
+-----------------
+
+*** Generating Wordlist...
+-----------------
+DIRB v2.22    
+By The Dark Raver
+-----------------
+
+OUTPUT_FILE: dirb_dirs.txt
+START_TIME: Thu Jun  4 22:28:24 2026
+URL_BASE: http://10.49.169.132:3333/
+WORDLIST_FILES: /usr/share/wordlists/dirbuster/directory-list-1.0.txt
+
+-----------------
+
+GENERATED WORDS: 141600
+(!) WARNING: Wordlist is too large. This will take a long time to end.
+    (Use mode '-w' if you want to scan anyway)
+
+-----------------
+DIRB v2.22    
+By The Dark Raver
+-----------------
+
+OUTPUT_FILE: dirb_dirs.txt
+START_TIME: Thu Jun  4 22:41:43 2026
+URL_BASE: http://10.49.169.132:3333/
+WORDLIST_FILES: /usr/share/wordlists/dirbuster/directory-list-1.0.txt
+OPTION: Not Stopping on warning messages
+
+-----------------
+
+GENERATED WORDS: 141600
+(!) WARNING: Wordlist is too large. This will take a long time to end.
+    (Use mode '-w' if you want to scan anyway)
+
+---- Scanning URL: http://10.49.169.132:3333/ ----
+==> DIRECTORY: http://10.49.169.132:3333/images/
+==> DIRECTORY: http://10.49.169.132:3333/css/
+==> DIRECTORY: http://10.49.169.132:3333/js/
+==> DIRECTORY: http://10.49.169.132:3333/internal/
++ Going to next directory.
+
+---- Entering directory: http://10.49.169.132:3333/images/ ----
+(!) WARNING: Directory IS LISTABLE. No need to scan it.
+    (Use mode '-w' if you want to scan it anyway)
++ Going to next directory.
+
+---- Entering directory: http://10.49.169.132:3333/css/ ----
+(!) WARNING: Directory IS LISTABLE. No need to scan it.
+    (Use mode '-w' if you want to scan it anyway)
++ Going to next directory.
+
+---- Entering directory: http://10.49.169.132:3333/js/ ----
+(!) WARNING: Directory IS LISTABLE. No need to scan it.
+    (Use mode '-w' if you want to scan it anyway)
++ Going to next directory.
+
+---- Entering directory: http://10.49.169.132:3333/internal/ ----
+==> DIRECTORY: http://10.49.169.132:3333/internal/uploads/
