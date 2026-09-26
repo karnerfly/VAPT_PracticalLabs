@@ -1,0 +1,1 @@
+# Hydra v9.7 run at 2026-09-26 19:38:42 on 10.48.129.242 ssh (hydra -l Vicious -P ./locks.txt -t 4 -o hydra_ssh.txt 10.48.129.242 ssh)

@@ -1,0 +1,89 @@
+Starting Nmap 7.99 ( https://nmap.org ) at 2026-09-26 19:09 +0530
+NSE: Loaded 48 scripts for scanning.
+Initiating Parallel DNS resolution of 1 host. at 19:09
+Completed Parallel DNS resolution of 1 host. at 19:09, 0.50s elapsed
+Initiating SYN Stealth Scan at 19:09
+Scanning 10.48.129.242 [1000 ports]
+Discovered open port 21/tcp on 10.48.129.242
+Discovered open port 80/tcp on 10.48.129.242
+Discovered open port 22/tcp on 10.48.129.242
+Completed SYN Stealth Scan at 19:09, 3.84s elapsed (1000 total ports)
+Initiating Service scan at 19:09
+Scanning 3 services on 10.48.129.242
+Completed Service scan at 19:09, 6.18s elapsed (3 services on 1 host)
+Initiating OS detection (try #1) against 10.48.129.242
+Retrying OS detection (try #2) against 10.48.129.242
+NSE: Script scanning 10.48.129.242.
+NSE: Starting runlevel 1 (of 2) scan.
+Initiating NSE at 19:09
+Completed NSE at 19:09, 0.22s elapsed
+NSE: Starting runlevel 2 (of 2) scan.
+Initiating NSE at 19:09
+Completed NSE at 19:09, 0.17s elapsed
+Nmap scan report for 10.48.129.242
+Host is up, received user-set (0.042s latency).
+Scanned at 2026-09-26 19:09:44 IST for 14s
+Not shown: 967 filtered tcp ports (no-response)
+PORT      STATE  SERVICE         REASON         VERSION
+20/tcp    closed ftp-data        reset ttl 62
+21/tcp    open   ftp             syn-ack ttl 62 vsftpd 3.0.5
+22/tcp    open   ssh             syn-ack ttl 62 OpenSSH 8.2p1 Ubuntu 4ubuntu0.13 (Ubuntu Linux; protocol 2.0)
+80/tcp    open   http            syn-ack ttl 62 Apache httpd 2.4.41 ((Ubuntu))
+990/tcp   closed ftps            reset ttl 62
+40193/tcp closed unknown         reset ttl 62
+40911/tcp closed unknown         reset ttl 62
+41511/tcp closed unknown         reset ttl 62
+42510/tcp closed caerpc          reset ttl 62
+44176/tcp closed unknown         reset ttl 62
+44442/tcp closed coldfusion-auth reset ttl 62
+44443/tcp closed coldfusion-auth reset ttl 62
+44501/tcp closed unknown         reset ttl 62
+45100/tcp closed unknown         reset ttl 62
+48080/tcp closed unknown         reset ttl 62
+49152/tcp closed unknown         reset ttl 62
+49153/tcp closed unknown         reset ttl 62
+49154/tcp closed unknown         reset ttl 62
+49155/tcp closed unknown         reset ttl 62
+49156/tcp closed unknown         reset ttl 62
+49157/tcp closed unknown         reset ttl 62
+49158/tcp closed unknown         reset ttl 62
+49159/tcp closed unknown         reset ttl 62
+49160/tcp closed unknown         reset ttl 62
+49161/tcp closed unknown         reset ttl 62
+49163/tcp closed unknown         reset ttl 62
+49165/tcp closed unknown         reset ttl 62
+49167/tcp closed unknown         reset ttl 62
+49175/tcp closed unknown         reset ttl 62
+49176/tcp closed unknown         reset ttl 62
+49400/tcp closed compaqdiag      reset ttl 62
+49999/tcp closed unknown         reset ttl 62
+50000/tcp closed ibm-db2         reset ttl 62
+OS fingerprint not ideal because: Didn't receive UDP response. Please try again with -sSU
+Aggressive OS guesses: Linux 5.14 - 6.8 (93%), Linux 4.15 - 5.19 (90%), HP P2000 G3 NAS device (89%), Linux 2.6.32 - 3.13 (88%), Linux 4.15 (88%), OpenWrt 19.07 (Linux 4.14) (88%), Linux 5.0 - 5.14 (88%), Linux 5.4 - 5.15 (88%), OpenWrt 22.03 (Linux 5.10) (88%), Linux 6.8 (88%)
+No exact OS matches for host (test conditions non-ideal).
+TCP/IP fingerprint:
+SCAN(V=7.99%E=4%D=9/26%OT=21%CT=20%CU=%PV=Y%G=N%TM=6AB7CB2E%P=x86_64-pc-linux-gnu)
+SEQ(SP=102%GCD=1%ISR=10A%TI=Z%CI=Z%II=I%TS=A)
+SEQ(SP=F9%GCD=1%ISR=108%TI=Z%CI=Z%II=I%TS=A)
+OPS(O1=M4E8ST11NW7%O2=M4E8ST11NW7%O3=M4E8NNT11NW7%O4=M4E8ST11NW7%O5=M4E8ST11NW7%O6=M4E8ST11)
+WIN(W1=F4B3%W2=F4B3%W3=F4B3%W4=F4B3%W5=F4B3%W6=F4B3)
+ECN(R=Y%DF=Y%TG=40%W=F507%O=M4E8NNSNW7%CC=Y%Q=)
+T1(R=Y%DF=Y%TG=40%S=O%A=S+%F=AS%RD=0%Q=)
+T2(R=N)
+T3(R=N)
+T4(R=Y%DF=Y%TG=40%W=0%S=A%A=Z%F=R%O=%RD=0%Q=)
+T5(R=Y%DF=Y%TG=40%W=0%S=Z%A=S+%F=AR%O=%RD=0%Q=)
+T6(R=Y%DF=Y%TG=40%W=0%S=A%A=Z%F=R%O=%RD=0%Q=)
+T7(R=N)
+U1(R=N)
+IE(R=Y%DFI=N%TG=40%CD=S)
+
+Uptime guess: 35.252 days (since Sat Aug 22 13:06:49 2026)
+TCP Sequence Prediction: Difficulty=258 (Good luck!)
+IP ID Sequence Generation: All zeros
+Service Info: OSs: Unix, Linux; CPE: cpe:/o:linux:linux_kernel
+
+Read data files from: /usr/share/nmap
+OS and Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+Nmap done: 1 IP address (1 host up) scanned in 14.74 seconds
+           Raw packets sent: 2024 (92.476KB) | Rcvd: 59 (3.136KB)

