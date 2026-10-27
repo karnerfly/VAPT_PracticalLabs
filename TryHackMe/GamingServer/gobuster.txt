@@ -1,0 +1,2 @@
+uploads             [36m (Status: 301)[0m [Size: 314][34m [--> http://10.48.135.25/uploads/][0m
+secret              [36m (Status: 301)[0m [Size: 313][34m [--> http://10.48.135.25/secret/][0m
