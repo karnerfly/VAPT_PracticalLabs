@@ -1,0 +1,19 @@
+examples            [36m (Status: 302)[0m [Size: 0][34m [--> /examples/][0m
+examples/../manager/html[33m (Status: 401)[0m [Size: 2473]
+examples/jsp/index.html[32m (Status: 200)[0m [Size: 14326]
+examples/servlets/index.html[32m (Status: 200)[0m [Size: 6416]
+host-manager        [36m (Status: 302)[0m [Size: 0][34m [--> /host-manager/][0m
+host-manager/html/* [33m (Status: 401)[0m [Size: 2044]
+examples/jsp/snp/snoop.jsp[32m (Status: 200)[0m [Size: 586]
+examples/jsp/source.jsp[31m (Status: 500)[0m [Size: 2629]
+manager             [36m (Status: 302)[0m [Size: 0][34m [--> /manager/][0m
+manager/html        [33m (Status: 401)[0m [Size: 2473]
+manager/html/       [33m (Status: 401)[0m [Size: 2473]
+manager/html/*      [33m (Status: 401)[0m [Size: 2473]
+manager/jmxproxy/*  [33m (Status: 401)[0m [Size: 2473]
+manager/jmxproxy    [33m (Status: 401)[0m [Size: 2473]
+manager/status/*    [33m (Status: 401)[0m [Size: 2473]
+RELEASE-NOTES.txt   [32m (Status: 200)[0m [Size: 7063]
+manager/status      [33m (Status: 401)[0m [Size: 2473]
+manager/text        [33m (Status: 401)[0m [Size: 2473]
+manager/status.xsd  [32m (Status: 200)[0m [Size: 4374]
