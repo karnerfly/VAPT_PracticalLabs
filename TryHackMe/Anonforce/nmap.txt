@@ -1,0 +1,32 @@
+Starting Nmap 7.991 ( https://nmap.org ) at 2026-11-06 18:05 +0530
+NSE: Loaded 48 scripts for scanning.
+Initiating Parallel DNS resolution of 1 host. at 18:05
+Completed Parallel DNS resolution of 1 host. at 18:05, 0.50s elapsed
+Initiating SYN Stealth Scan at 18:05
+Scanning 10.49.176.115 [1000 ports]
+Discovered open port 22/tcp on 10.49.176.115
+Discovered open port 21/tcp on 10.49.176.115
+Completed SYN Stealth Scan at 18:05, 1.88s elapsed (1000 total ports)
+Initiating Service scan at 18:05
+Scanning 2 services on 10.49.176.115
+Completed Service scan at 18:05, 0.09s elapsed (2 services on 1 host)
+NSE: Script scanning 10.49.176.115.
+NSE: Starting runlevel 1 (of 2) scan.
+Initiating NSE at 18:05
+Completed NSE at 18:05, 0.00s elapsed
+NSE: Starting runlevel 2 (of 2) scan.
+Initiating NSE at 18:05
+Completed NSE at 18:05, 0.00s elapsed
+Nmap scan report for 10.49.176.115
+Host is up, received user-set (0.039s latency).
+Scanned at 2026-11-06 18:05:14 IST for 2s
+Not shown: 998 closed tcp ports (reset)
+PORT   STATE SERVICE REASON         VERSION
+21/tcp open  ftp     syn-ack ttl 62 vsftpd 3.0.3
+22/tcp open  ssh     syn-ack ttl 62 OpenSSH 7.2p2 Ubuntu 4ubuntu2.8 (Ubuntu Linux; protocol 2.0)
+Service Info: OSs: Unix, Linux; CPE: cpe:/o:linux:linux_kernel
+
+Read data files from: /usr/share/nmap
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+Nmap done: 1 IP address (1 host up) scanned in 2.76 seconds
+           Raw packets sent: 1004 (44.176KB) | Rcvd: 1000 (40.008KB)

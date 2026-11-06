@@ -1,0 +1,4 @@
+Loaded 1 password hash (sha512crypt, crypt(3) $6$ [SHA512 256/256 AVX2 4x])
+Cost 1 (iteration count) is 5000 for all loaded hashes
+Note: Passwords longer than 26 [worst case UTF-8] to 79 [ASCII] rejected
+hikari[0m           (root[0m)     
